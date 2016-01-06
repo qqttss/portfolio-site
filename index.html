@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header class="container">
+            <div class="title-logo row">
+                <div class="col-md-6 logo">
+                    <img class="img-responsive" src="images/udacity_logo.svg" alt="This is a Udacity logo">
+                </div>
+                <div class="col-md-6 title text-right text-uppercase">
+                    <h1>Jane Doette</h1>
+                    <h4>Front-end Ninja</h4>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <nav class="container" role="navigation">
+            <ul class="nav nav-pills list-inline text-uppercase text-center row">
+                <li class="nav-item col-md-3">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                        Event
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Event1</a></li>
+                        <li><a href="#">Event2</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item col-md-3 dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                        Health
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Health1</a></li>
+                        <li><a href="#">Health2</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item col-md-3 dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                        Sports
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Sports1</a></li>
+                        <li><a href="#">Sports2</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item col-md-3 dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                        Tech
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Tech1</a></li>
+                        <li><a href="#">Tech2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="img-responsive" src="images/main_puppy_1200px.jpeg" alt="This is main puppy image">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Featured Work</h2>
+                        </div>
+                    </div>
+                </div>
+                <section class="container content text-center">
+                    <div class="row">
+                        <div class="col-md-4 image-content appify">
+                            <img class="img-responsive" data-toggle="modal" data-target="#modal-appify" src="images/lake_1.jpg" alt="Appify">
+                            <h3 class="text-uppercase">appify</h3>
+                            <a href="">Link to project</a>
+                        </div>
+                        <div class="col-md-4 image-content sunflower">
+                            <img class="img-responsive" data-toggle="modal" data-target="#modal-sunflower" src="images/sunflower_2.jpg" alt="Sunfloer">
+                            <h3 class="text-uppercase">sunflower</h3>
+                            <a href="">Link to project</a>
+                        </div>
+                        <div class="col-md-4 image-content bokeh">
+                            <img class="img-responsive" data-toggle="modal" data-target="#modal-bokeh" src="images/puppy_3.jpg" alt="Bokeh">
+                            <h3 class="text-uppercase">bokeh</h3>
+                            <a href="">Link to project</a>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <footer class="container">
+                <ul class="list-inline">
+                    <li><a href="#">Questions</a></li>
+                    <li><a href="#">Follow us on Facebook</a></li>
+                    <li><a href="#">RSS</a></li>
+                </ul>
+            </footer>
+        </main>
+
+    <!-- 1st Modal for appify -->
+        <div class="modal fade" id="modal-appify" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title">Appify</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/lake_1.jpg" alt="Appify">
+                        <p>This is my first project in the class of Front End Development. The
+                           class provided by Udacity is great. I have learned a lot about HTML, CSS and javaScript. The portfolio pictures look nice,
+                           but there isn't that much info about my projects. Click on the image, you will see more.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                        </button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+
+<!-- 2nd Modal for sunflower -->
+        <div class="modal fade" id="modal-sunflower" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title">Sunflower</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/sunflower_2.jpg" alt="Sunflower">
+                        <p>This is my first project in the class of Front End Development. The
+                           class provided by Udacity is great. I have learned a lot about HTML, CSS and javaScript. The portfolio pictures look nice,
+                           but there isn't that much info about my projects. Click on the image, you will see more.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                        </button>
+                    </div>
+                </div><!-- /.modal-content-->
+            </div><!-- /.modal -->
+        </div>
+
+<!-- 3rd Modal for bokeh -->
+        <div class="modal fade" id="modal-bokeh" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title">Bokeh</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/puppy_3.jpg" alt="Bokeh">
+                        <p>This is my first project in the class of Front End Development. The
+                           class provided by Udacity is great. I have learned a lot about HTML, CSS and javaScript. The portfolio pictures look nice,
+                           but there isn't that much info about my projects. Click on the image, you will see more.
+                        </p>
+                        </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                        </button>
+                    </div>
+                </div> <!-- /.modal-content-->
+            </div> <!-- /.modal -->
+        </div>
+
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+    </body>
+</html>

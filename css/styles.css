@@ -1,0 +1,127 @@
+body {
+    font-family: "lato", sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+/*   ***header***    */
+
+h1 {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+.title,
+.logo {
+    width: 50%;
+}
+
+.title {
+    padding-right: 10px;
+}
+
+.logo {
+    padding-left: 10px;
+}
+
+/*  *** Top Level Navogation***  */
+
+nav {
+    padding: 10px 0;
+}
+
+.nav-item {
+    width: 24%;
+}
+
+/*  ***main***  */
+
+.content,
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-content {
+    display: block;
+    width: 100%;
+}
+
+.appify>img,
+.sunflower>img,
+.bokeh>img {
+    padding-top: 10px;
+    padding-right: 5px;
+    margin: 0 auto;
+}
+
+a {
+    padding: 1.5em;
+}
+
+h3 {
+    padding: 5px;
+}
+
+@media screen and (max-width: 450px) {
+    .appify,
+    .sunflower,
+    .bokeh {
+        width: 100%;
+        }
+}
+
+@media screen and (min-width: 451px) and (max-width: 750px) {
+    .appify,
+    .sunflower,
+    .bokeh {
+        width: 50%;
+        }
+
+}
+@media screen and (min-width: 751px) {
+    .appify,
+    .sunflower,
+    .bokeh {
+        width: 33.333%;
+    }
+}
+
+
+/*  ***Footer*** */
+footer {
+    padding-top: 5px;
+}
+
+/* ***modal*** */
+
+.modal-content {
+    width: 100%;
+    display: block;
+}
+
+.modal-header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-body {
+    width: 100%;
+}
+
+.modal img {
+    margin-left: auto;
+    margin-right: auto;
+}
